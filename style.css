@@ -1,0 +1,166 @@
+.bgimage {
+  height: 100vh;
+  background: url("../images/portfolio.png");
+  background-size: cover;
+  position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.imageAboutPage {
+  width: 20%;
+}
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+  color: mediumseagreen;
+  font-style: bold;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+/* Update navbar style */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  padding: 15px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #e6e6e6;
+  color: #000000;
+}
+/* Add hero section style */
+.bgimage {
+  background-image: url("https://source.unsplash.com/1600x900/?technology,computer");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_title {
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+.hero_desc {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+/* Update about section style */
+#about {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+.imageAboutPage {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.textAboutPage {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+.textAboutPage li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+/* Update services section style */
+#services {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+.servicesText {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.servicesText:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1px 5px;
+}
